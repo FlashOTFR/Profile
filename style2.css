@@ -31,6 +31,7 @@ header {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: sticky;
     top: 0;
+    height: 800px;
 }
 
 .headList {
@@ -60,10 +61,15 @@ ul {
   }
 
   .content {
+    display: flex;
     flex: 1 0 auto;
     margin-left:auto;
     margin-right:auto;
-    width:=600px;
+    width: 600px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
 }
 .portrait {
     height 30%;
@@ -82,8 +88,39 @@ h1. h2, h3 {
 }
 
 .content2 {
+    display: flex;
     flex: 1 0 auto;
     margin-left:auto;
     margin-right:auto;
-    width:=600px;
+    width: 600px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.content3 {
+    display: flex;
+    flex: 1 0 auto;
+    margin-left:auto;
+    margin-right:auto;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+    border: 50px black;
+}
+
+.message {
+    height:300px;
+    width: 600px;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    width: 120px;
+    height: 60px;
+}
+
+input {
+    width: 200px;
 }
