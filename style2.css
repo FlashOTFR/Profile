@@ -32,6 +32,8 @@ header {
     position: sticky;
     top: 0;
     height: 800px;
+    border-style: solid;
+    border-color: #cccccc;
 }
 
 .headList {
@@ -65,11 +67,16 @@ ul {
     flex: 1 0 auto;
     margin-left:auto;
     margin-right:auto;
-    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1600px;
+    height: 700px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: white;
+    border-style: solid;
+    border-color: #dddddd;
 }
 .portrait {
     height 30%;
@@ -92,10 +99,16 @@ h1. h2, h3 {
     flex: 1 0 auto;
     margin-left:auto;
     margin-right:auto;
-    width: 600px;
-    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 1600px;
+    height: 700px;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
+    justify-content: center;
+    border-style: solid;
+    border-color: #dddddd;
 }
 
 .content3 {
@@ -103,10 +116,15 @@ h1. h2, h3 {
     flex: 1 0 auto;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
     flex-direction: column;
-    width: 600px;
+    width: 1600px;
+    height: 700px;
     background-color: white;
-    border: 50px black;
+    justify-content: center;
+    border-style: solid;
+    border-color: #dddddd;
 }
 
 .message {
@@ -123,4 +141,18 @@ h1. h2, h3 {
 
 input {
     width: 200px;
+}
+
+.topBoy {
+    align-items: flex start;
+}
+
+.pictures {
+    width:600px;
+    justify-content: center;
+}
+
+.inputBoys {
+    width 600px;
+    justify-content: center;
 }
