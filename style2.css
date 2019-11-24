@@ -90,8 +90,9 @@ p {
 
 }
 
-h1. h2, h3 {
+h1, h2, h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
 }
 
 .content2 {
@@ -153,6 +154,12 @@ input {
 }
 
 .inputBoys {
+    display: flex;
     width 600px;
     justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    color: white;
 }
